@@ -1,6 +1,19 @@
 from typing import List
 
 def selectionSort(array, size) -> List[int]:
+     size = len(data)  
+      
+    for i in range(length-1):  
+        minIndex = i  
+          
+        for j in range(i+1, size):  
+            if data[j]<data[minIndex]:  
+                minIndex = j  
+                  
+        data[i], data[minIndex] = data[minIndex], data[i]  
+          
+          
+    return data
   # Write your code here
 
 # Do not change the following code
